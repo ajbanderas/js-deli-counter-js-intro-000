@@ -13,3 +13,15 @@ function nowServing(line){
     return serving;
   }
 }
+
+function currentLine(currentLine){
+  if(currentLine.length === 0){
+    return "The line is currently empty.";
+  } else{
+    var place = 1;
+    var holder = [];
+    for(var i = 0; i < currentLine.length -1; ++i){
+      holder[i] = `${place}. ${currentLine[i]}`;
+    }
+  }
+}
