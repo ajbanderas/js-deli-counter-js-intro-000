@@ -4,3 +4,6 @@ function takeANumber(current, next){
   return `Welcome, ${next}. You are number ${num} in line.`;
 }
 
+function nowServing(line){
+  
+}
