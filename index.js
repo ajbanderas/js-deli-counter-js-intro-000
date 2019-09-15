@@ -3,3 +3,4 @@ function takeANumber(current, next){
   var num = current.length;
   return `Welcome, ${next}. You are number ${num} in line.`;
 }
+
