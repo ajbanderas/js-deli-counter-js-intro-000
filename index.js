@@ -23,6 +23,6 @@ function currentLine(currentLine){
     for(var i = 0; i < currentLine.length -1; ++i){
       holder[i] = `${place}. ${currentLine[i]}`;
     }
-    
+    return `The line is currently: ${holder}`
   }
 }
