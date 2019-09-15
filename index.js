@@ -22,6 +22,7 @@ function currentLine(currentLine){
     var holder = [];
     for(var i = 0; i < currentLine.length; ++i){
       holder[i] = `${place}. ${currentLine[i]}`;
+      place++
     }
     return `The line is currently: ${holder}`
   }
