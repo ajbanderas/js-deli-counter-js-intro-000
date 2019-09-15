@@ -1,3 +1,4 @@
 function takeANumber(place, name){
-  var line = 
+  var test = place.concat(name);
+  return test
 }
